@@ -57,7 +57,7 @@ export default function Card() {
             <h2>{product.name}</h2>
             <img src={product.image} alt="pro-image" />
             <p>{product.info}</p>
-            <h3>Price=₹{product.price}</h3>
+            <h3>Price:₹{product.price}</h3>
             <button className='btn-card' onClick={fun}>Add to cart</button>
             <br></br>
             <button className='btn' onClick={inc}>+</button>
